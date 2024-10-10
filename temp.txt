@@ -1,0 +1,8 @@
+JournalEntries.js
+{entry.imageUrl && (
+    <img 
+        src={`https://https://traveljournal84db5989208d4f25800f44adde11050a61c0e-dev.s3.amazonaws.com/${entry.imageUrl}`} 
+        alt={entry.title}
+        className="entry-image"
+    />
+)}
